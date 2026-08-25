@@ -1,0 +1,21 @@
+{
+  "name": "don-daniel-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site with Node/Express/MongoDB backend: contact form, visitor counter, testimonials.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mongoose": "^8.6.0",
+    "nodemailer": "^9.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
